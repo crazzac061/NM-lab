@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-using namespace std;
+
 
 float SumX(float x[], int n)
 {
