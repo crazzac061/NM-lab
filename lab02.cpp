@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-using namespace std;
+
 
 float SumX(float x[], int n)
 {
@@ -75,7 +75,16 @@ int main()
     {
         a= ((sy*sx2)-(sx*sxy))/d;
         b=((n*sxy)-(sx*sy))/d;
-        cout<<"Y="<<exp(a)<<"+"<<b<<"x";
+         if (b>0)
+        {
+          cout<<"Y="<<exp(a)<<"+"<<b<<"x"<<endl;
+        }
+        else
+        {
+          cout<<"Y="<<exp(a)<<"-"<<b*(-1)<<"x";
+        }
+        
+        
     }
     
     delete []arrx;
