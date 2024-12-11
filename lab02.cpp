@@ -77,11 +77,11 @@ int main()
         b=((n*sxy)-(sx*sy))/d;
          if (b>0)
         {
-          cout<<"Y="<<exp(a)<<"+"<<b<<"x"<<endl;
+          cout<<"Y="<<exp(a)<<"e^("<<b<<"x)"<<endl;
         }
         else
         {
-          cout<<"Y="<<exp(a)<<"-"<<b*(-1)<<"x";
+          cout<<"Y="<<exp(a)<<"e^(-"<<b*(-1)<<"x)"<<endl;
         }
         
         
@@ -89,6 +89,7 @@ int main()
     
     delete []arrx;
     delete []arry;
+    delete []lny;
     return 0;
 
     
