@@ -73,7 +73,15 @@ int main()
     {
         a= ((sy*sx2)-(sx*sxy))/d;
         b=((n*sxy)-(sx*sy))/d;
-        cout<<"Y="<<a<<"+"<<b<<"x";
+        if (b>0)
+        {
+          cout<<"Y="<<a<<"+"<<b<<"x"<<endl;
+        }
+        else
+        {
+          cout<<"Y="<<a<<"-"<<b*(-1)<<"x";
+        }
+        
     }
     
     delete []arrx;
