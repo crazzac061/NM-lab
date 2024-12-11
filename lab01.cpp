@@ -1,3 +1,6 @@
+//This is lab questions for numerical methods.
+// below has the code in C++ for linear regression
+
 #include <iostream>
 #include <cmath>
 #include <string>
