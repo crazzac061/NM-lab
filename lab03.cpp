@@ -5,7 +5,7 @@ using namespace std;
 
 float compFunc(float x)
 {
-    return (x*x*x -4*x - 9);
+    return (sin(x)*cos(x)/2);
 }
 float compMean (float x1, float x2)
 {
